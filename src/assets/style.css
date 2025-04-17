@@ -1,0 +1,42 @@
+body {
+    font-family: monospace;
+    padding: 1rem;
+    margin: auto;
+  }
+  
+  input, button {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: monospace;
+    border-radius: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color:white;
+    margin: 10px auto;
+  }
+  a {
+    all: unset;
+  }
+  ul {
+    font-size: 16px;
+    text-align: center;
+    padding-inline-start: 0px;
+  }
+  li {
+    cursor: pointer;
+    list-style: none;
+  }
+  li:hover {
+    font-weight: 800;
+  }
+ .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+ }
